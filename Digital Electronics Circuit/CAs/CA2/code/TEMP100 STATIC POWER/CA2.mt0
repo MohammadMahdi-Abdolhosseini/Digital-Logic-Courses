@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'digital electronic circuits - ca2'
+ static_power_1   static_power_2   static_power_3   static_power_4  
+ static_power_5   static_power_6   static_power_7   static_power_8  
+ temper           alter#          
+  8.180e-07        1.725e-05        4.323e-06        2.099e-05      
+  2.245e-05        2.541e-05        5.769e-06        1.193e-05      
+  100.0000        1               

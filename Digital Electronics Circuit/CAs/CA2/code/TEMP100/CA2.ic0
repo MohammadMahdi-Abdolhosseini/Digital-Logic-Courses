@@ -1,0 +1,31 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "21:49:22 11/30/2022 "
+* "netlist" "CA2.sp "
+* "runtitle" "digital electronic circuits - ca2"
+* time =    0.            
+* temperature =  100.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ b =   0.            
++ c =   0.            
++ cout = 316.6872n       
++ n1 =   1.8000        
++ n10 = 864.6521n       
++ n2 =   1.8000        
++ n3 =   1.8000        
++ n4 =  39.6859m       
++ n5 =  39.6859m       
++ n6 =   1.8000        
++ n7 =   1.8000        
++ n8 =   1.8000        
++ n9 =   1.4470        
++ sum = 316.7144n       
++ vdd =   1.8000        
++ x1.vdd =   1.8000        
++ x2.vdd =   1.8000        
+***   END: Saved Operating Point ***                     

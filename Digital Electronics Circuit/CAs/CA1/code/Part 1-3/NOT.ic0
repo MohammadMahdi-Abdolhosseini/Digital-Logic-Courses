@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "17:35:38 11/05/2022 "
+* "netlist" "NOT.sp "
+* "runtitle" "digital electronic circuits - ca1: not gate: part 1:3"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ out = 999.9625m       
++ vdd =   1.0000        
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,34 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'digital electronic circuits - ca2'
+ t_rise_sum_1     t_rise_sum_2     t_rise_sum_3     t_rise_sum_4    
+ t_rise_sum_5     t_rise_sum_6     t_rise_sum_7     t_rise_sum_8    
+ t_rise_sum_9     t_rise_sum_10    t_rise_sum_11    t_rise_sum_12   
+ t_rise_sum_13    t_rise_sum_14    t_rise_sum_15    t_fall_sum_1    
+ t_fall_sum_2     t_fall_sum_3     t_fall_sum_4     t_fall_sum_5    
+ t_fall_sum_6     t_fall_sum_7     t_fall_sum_8     t_fall_sum_9    
+ t_fall_sum_10    t_fall_sum_11    t_fall_sum_12    t_fall_sum_13   
+ t_fall_sum_14    t_rise_cout_1    t_rise_cout_2    t_rise_cout_3   
+ t_rise_cout_4    t_rise_cout_5    t_rise_cout_6    t_rise_cout_7   
+ t_rise_cout_8    t_rise_cout_9    t_rise_cout_10   t_rise_cout_11  
+ t_rise_cout_12   t_rise_cout_13   t_rise_cout_14   t_rise_cout_15  
+ t_fall_cout_1    t_fall_cout_2    t_fall_cout_3    t_fall_cout_4   
+ t_fall_cout_5    t_fall_cout_6    t_fall_cout_7    t_fall_cout_8   
+ t_fall_cout_9    t_fall_cout_10   t_fall_cout_11   t_fall_cout_12  
+ t_fall_cout_13   t_fall_cout_14   t_fall_cout_15   pow             
+ temper           alter#          
+  6.697e-11        4.963e-11        6.670e-11        6.714e-11      
+  8.425e-11        5.436e-11        4.320e-11        6.065e-11      
+  5.367e-11        6.734e-11        8.730e-11        6.251e-11      
+  8.574e-11        6.668e-11        6.838e-11        5.691e-11      
+  5.271e-11        4.650e-11        4.467e-11        5.715e-11      
+  5.509e-11        4.583e-11        5.604e-11        5.687e-11      
+  5.533e-11        5.708e-11        5.382e-11        5.495e-11      
+  4.848e-11        7.085e-11        5.799e-11        6.428e-11      
+  5.690e-11        4.092e-11        9.243e-11        6.431e-11      
+  8.364e-11        4.353e-11        4.367e-11        8.284e-11      
+  7.575e-11        5.965e-11        6.003e-11        4.417e-11      
+  5.299e-11        7.651e-11        3.476e-11        3.580e-11      
+  4.444e-11        8.088e-11        4.177e-11        5.911e-11      
+  8.041e-11        7.275e-11        3.509e-11        4.324e-11      
+  4.894e-11        4.855e-11        7.288e-11        1.357e-05      
+  100.0000        1               

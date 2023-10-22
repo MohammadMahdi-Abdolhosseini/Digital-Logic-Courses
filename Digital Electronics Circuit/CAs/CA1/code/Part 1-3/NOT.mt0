@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'digital electronic circuits - ca1: not gate: part 1:3'
+ t_rise           t_fall           temper           alter#          
+  3.401e-10        2.261e-10         25.0000        1               

@@ -1,0 +1,55 @@
+****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******
+Input File: CA2.sp
+lic:
+lic: FLEXlm: SDK_12.3
+lic: USER:   IDEAL                HOSTNAME: DESKTOP-VQ2IIPN
+lic: HOSTID: "4c1d965bedfb"       PID:      2560
+lic: Using FLEXlm license file:
+lic: 27000@DESKTOP-VQ2IIPN
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 30-dec-2030/2030.12
+lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@DESKTOP-VQ2IIPN
+lic:
+
+ init: begin read circuit files, cpu clock= 4.68E+00
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/behave/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/AD/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/XILINX/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TLINE/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/SIGNET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PCI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/LIN_TEC
+                         H/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/DI0/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/COMLINE
+                         /
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BURR_BR
+                         M/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BJT/
+       option post =     2.00
+ init: end read circuit files, cpu clock= 4.69E+00 peak memory=      62 mb
+ init: begin check errors, cpu clock= 4.69E+00
+ init: end check errors, cpu clock= 4.70E+00 peak memory=      63 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 4.70E+00
+       establish matrix -- done, cpu clock= 4.70E+00 peak memory=      63 mb
+       re-order matrix -- done, cpu clock= 4.70E+00 peak memory=      63 mb
+ init: end setup matrix, cpu clock= 4.71E+00 peak memory=      63 mb
+ dcop: begin dcop, cpu clock= 4.71E+00
+ dcop: end dcop, cpu clock= 4.72E+00 peak memory=      63 mb tot_iter=      21
+ output: C:\Users\IDEAL\Desktop\CA2\FULL ADDER\CA2.mt0
+ sweep: tran tran0    begin, stop_t=  1.70E-07 #sweeps=**** cpu clock= 4.72E+00
+ tran: time= 1.7473E-08 tot_iter=     442 conv_iter=     160 cpu clock= 4.73E+00
+ tran: time= 3.4044E-08 tot_iter=     817 conv_iter=     293 cpu clock= 4.75E+00
+ tran: time= 5.1252E-08 tot_iter=    1385 conv_iter=     495 cpu clock= 4.77E+00
+ tran: time= 6.8057E-08 tot_iter=    2007 conv_iter=     707 cpu clock= 4.79E+00
+ tran: time= 8.6498E-08 tot_iter=    2376 conv_iter=     838 cpu clock= 4.81E+00
+ tran: time= 1.0221E-07 tot_iter=    2834 conv_iter=    1000 cpu clock= 4.82E+00
+ tran: time= 1.1919E-07 tot_iter=    3479 conv_iter=    1221 cpu clock= 4.85E+00
+ tran: time= 1.3618E-07 tot_iter=    3956 conv_iter=    1397 cpu clock= 4.87E+00
+ tran: time= 1.5304E-07 tot_iter=    4607 conv_iter=    1618 cpu clock= 4.90E+00
+ tran: time= 1.7000E-07 tot_iter=    4729 conv_iter=    1665 cpu clock= 4.90E+00
+ sweep: tran tran0    end, cpu clock= 4.90E+00 peak memory=      63 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
