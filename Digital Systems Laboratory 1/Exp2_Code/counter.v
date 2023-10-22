@@ -5,7 +5,10 @@ output reg		[3:0] cnt_out;
 
 
 always @(posedge clk, posedge rst) begin
-	if (rst == 1'b1 || clr == 1'b1) begin
+	if (rst == 1'b1) begin
+		cnt_out <= 4'd0;
+	end
+	else if (clr == 1'b1) begin
 		cnt_out <= 4'd0;
 	end
 	else if (inc == 1'b1) begin

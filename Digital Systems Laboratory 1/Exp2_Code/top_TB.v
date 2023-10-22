@@ -61,6 +61,22 @@ initial begin
     repeat (20) begin
         @(posedge UUT.clk_en);
     end
+    ser_in = 1'b0;
+    @(posedge UUT.clk_en);
+    ser_in = 1'b1;
+    @(posedge UUT.clk_en);
+    ser_in = 1'b1;
+    @(posedge UUT.clk_en);
+    ser_in = 1'b0;
+    @(posedge UUT.clk_en);
+    ser_in = 1'b1;
+    @(posedge UUT.clk_en);
+    ser_in = 1'b0;
+    @(posedge UUT.clk_en);
+    ser_in = 1'b0;
+    repeat (20) begin
+        @(posedge UUT.clk_en);
+    end
     $stop;
 end
 

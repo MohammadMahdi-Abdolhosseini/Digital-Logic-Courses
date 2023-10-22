@@ -99,6 +99,6 @@ always @(ps) begin
 	endcase
 end
 
-assign ser_out = ser_in;
+assign ser_out = (ps == gotAll) ? ser_in : 1'bZ;
 
 endmodule
