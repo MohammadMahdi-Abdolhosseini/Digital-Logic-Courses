@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'digital electronic circuits - ca3 - part2'
+ avg_power_dynamic_cmos_xor temper           alter#          
+  6.663e-08         25.0000        1               

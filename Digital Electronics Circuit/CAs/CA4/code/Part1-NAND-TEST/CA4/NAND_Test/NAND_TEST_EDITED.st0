@@ -1,0 +1,55 @@
+****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******
+Input File: NAND_TEST_EDITED.sp
+lic:
+lic: FLEXlm: SDK_12.3
+lic: USER:   IDEAL                HOSTNAME: DESKTOP-VQ2IIPN
+lic: HOSTID: 000c294610b7         PID:      4924
+lic: Using FLEXlm license file:
+lic: 27000@DESKTOP-VQ2IIPN
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 30-dec-2030/2030.12
+lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@DESKTOP-VQ2IIPN
+lic:
+
+ init: begin read circuit files, cpu clock= 1.27E-01
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/behave/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/AD/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/XILINX/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TLINE/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/SIGNET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PCI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/LIN_TEC
+                         H/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/DI0/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/COMLINE
+                         /
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BURR_BR
+                         M/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BJT/
+       option post =     2.00
+ init: end read circuit files, cpu clock= 1.55E-01 peak memory=      60 mb
+ init: begin check errors, cpu clock= 1.55E-01
+ init: end check errors, cpu clock= 1.67E-01 peak memory=      60 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.67E-01
+       establish matrix -- done, cpu clock= 1.69E-01 peak memory=      60 mb
+       re-order matrix -- done, cpu clock= 1.69E-01 peak memory=      60 mb
+ init: end setup matrix, cpu clock= 1.70E-01 peak memory=      60 mb
+ dcop: begin dcop, cpu clock= 1.70E-01
+ dcop: end dcop, cpu clock= 1.88E-01 peak memory=      60 mb tot_iter=      23
+ output: C:\Users\IDEAL\Desktop\CA4\NAND_Test\NAND_TEST_EDITED.tr0
+ sweep: tran tran0    begin, stop_t=  2.00E-06 #sweeps=**** cpu clock= 1.89E-01
+ tran: time= 2.0001E-07 tot_iter=      96 conv_iter=      41 cpu clock= 2.00E-01
+ tran: time= 4.0000E-07 tot_iter=     189 conv_iter=      80 cpu clock= 2.01E-01
+ tran: time= 6.0001E-07 tot_iter=     286 conv_iter=     123 cpu clock= 2.03E-01
+ tran: time= 8.0000E-07 tot_iter=     343 conv_iter=     149 cpu clock= 2.03E-01
+ tran: time= 1.0000E-06 tot_iter=     446 conv_iter=     192 cpu clock= 2.05E-01
+ tran: time= 1.2000E-06 tot_iter=     539 conv_iter=     231 cpu clock= 2.06E-01
+ tran: time= 1.4000E-06 tot_iter=     640 conv_iter=     275 cpu clock= 2.14E-01
+ tran: time= 1.6000E-06 tot_iter=     697 conv_iter=     301 cpu clock= 2.15E-01
+ tran: time= 1.8000E-06 tot_iter=     800 conv_iter=     344 cpu clock= 2.17E-01
+ tran: time= 2.0000E-06 tot_iter=     894 conv_iter=     384 cpu clock= 2.18E-01
+ sweep: tran tran0    end, cpu clock= 2.18E-01 peak memory=      60 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

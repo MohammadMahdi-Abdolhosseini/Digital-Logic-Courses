@@ -1,0 +1,117 @@
+pnlAddPane();
+nil
+1
+designOpen("C:/Users/IDEAL/Desktop/CA3/Part 2/XOR.tr0");
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlAddPane();
+nil
+nil
+2
+pnlAddPane();
+nil
+nil
+3
+pnlAddPane();
+nil
+nil
+4
+pnlAddPane();
+nil
+nil
+5
+pnlUnselectPane(5, 0);
+nil
+pnlSelectPane(1);
+nil
+designOpen("C:\\Users\\IDEAL\\Desktop\\CA3\\Part 2\\XOR.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(a)"), node(D0,"A0","TIME"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(2);
+nil
+pnlUnselectPane(2, 0);
+nil
+pnlSelectPane(2);
+nil
+designSelect(0);
+t
+pnlAddCurve(2, node(D0,"A0","v(b)"), node(D0,"A0","TIME"));
+nil
+pnlUnselectPane(2, 0);
+nil
+pnlSelectPane(3);
+nil
+designSelect(0);
+t
+pnlAddCurve(3, node(D0,"A0","v(clk)"), node(D0,"A0","TIME"));
+nil
+pnlUnselectPane(3, 0);
+nil
+pnlSelectPane(4);
+nil
+designSelect(0);
+t
+pnlAddCurve(4, node(D0,"A0","v(out_dynamic_cmos_xor)"), node(D0,"A0","TIME"));
+nil
+pnlUnselectPane(4, 0);
+nil
+pnlSelectPane(5);
+nil
+designSelect(0);
+t
+pnlAddCurve(5, node(D0,"A0","v(out_transmission_gate_xor)"), node(D0,"A0","TIME"));
+nil
+pnlUnselectPane(5, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(2);
+nil
+pnlUnselectPane(2, 0);
+nil
+pnlSelectPane(3);
+nil
+pnlUnselectPane(3, 0);
+nil
+pnlSelectPane(4);
+nil
+pnlUnselectPane(4, 0);
+nil
+pnlSelectPane(5);
+nil
+pnlUnselectPane(5, 0);
+nil
+pnlSelectPane(1);
+nil
+updateAll();
+t
+updateAll();
+t
+planSave("GRAPHs");
+t
+quit();
+exit
+pnlDeletePane(5, 1);
+nil
+nil
+pnlDeletePane(4, 1);
+nil
+nil
+pnlDeletePane(3, 1);
+nil
+nil
+pnlDeletePane(2, 1);
+nil
+nil
+pnlDeletePane(1, 1);
+nil
+nil

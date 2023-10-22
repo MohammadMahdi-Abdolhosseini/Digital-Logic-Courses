@@ -1,0 +1,24 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "09:09:12 12/29/2022 "
+* "netlist" "MUX.sp "
+* "runtitle" "digital electronic circuits - ca3 - part1"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ b =   0.            
++ out_pseudo_nmos_mux = 141.9644u       
++ s =   0.            
++ x2.n1 = 999.7083m       
++ x2.n2 =  68.1260u       
++ x2.n3 = 135.8817m       
++ x2.sbar = 999.8713m       
++ x2.vdd =   1.0000        
++ x2.x1.vdd =   1.0000        
++ x2.x2.vdd =   1.0000        
+***   END: Saved Operating Point ***                     

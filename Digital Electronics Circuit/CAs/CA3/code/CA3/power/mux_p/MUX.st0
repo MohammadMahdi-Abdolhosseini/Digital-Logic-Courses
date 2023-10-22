@@ -1,0 +1,55 @@
+****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******
+Input File: MUX.sp
+lic:
+lic: FLEXlm: SDK_12.3
+lic: USER:   IDEAL                HOSTNAME: DESKTOP-VQ2IIPN
+lic: HOSTID: "4c1d965bedfb"       PID:      6912
+lic: Using FLEXlm license file:
+lic: 27000@DESKTOP-VQ2IIPN
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 30-dec-2030/2030.12
+lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@DESKTOP-VQ2IIPN
+lic:
+
+ init: begin read circuit files, cpu clock= 5.50E-02
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/behave/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/AD/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/XILINX/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TLINE/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/SIGNET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PCI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/LIN_TEC
+                         H/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/DI0/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/COMLINE
+                         /
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BURR_BR
+                         M/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BJT/
+       option post =     2.00
+ init: end read circuit files, cpu clock= 6.40E-02 peak memory=      61 mb
+ init: begin check errors, cpu clock= 6.40E-02
+ init: end check errors, cpu clock= 7.00E-02 peak memory=      61 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 7.00E-02
+       establish matrix -- done, cpu clock= 7.10E-02 peak memory=      61 mb
+       re-order matrix -- done, cpu clock= 7.10E-02 peak memory=      61 mb
+ init: end setup matrix, cpu clock= 7.20E-02 peak memory=      61 mb
+ dcop: begin dcop, cpu clock= 7.20E-02
+ dcop: end dcop, cpu clock= 7.40E-02 peak memory=      61 mb tot_iter=       7
+ output: C:\Users\IDEAL\Desktop\CA3\power\mux_p\MUX.mt0
+ sweep: tran tran0    begin, stop_t=  2.00E-06 #sweeps=**** cpu clock= 7.50E-02
+ tran: time= 2.0000E-07 tot_iter=     154 conv_iter=      58 cpu clock= 8.50E-02
+ tran: time= 4.0000E-07 tot_iter=     319 conv_iter=     121 cpu clock= 8.80E-02
+ tran: time= 6.0000E-07 tot_iter=     516 conv_iter=     194 cpu clock= 9.60E-02
+ tran: time= 8.0000E-07 tot_iter=     680 conv_iter=     260 cpu clock= 1.12E-01
+ tran: time= 1.0000E-06 tot_iter=     830 conv_iter=     315 cpu clock= 1.15E-01
+ tran: time= 1.2000E-06 tot_iter=     995 conv_iter=     378 cpu clock= 1.18E-01
+ tran: time= 1.4000E-06 tot_iter=    1192 conv_iter=     451 cpu clock= 1.25E-01
+ tran: time= 1.6000E-06 tot_iter=    1356 conv_iter=     517 cpu clock= 1.28E-01
+ tran: time= 1.8000E-06 tot_iter=    1506 conv_iter=     572 cpu clock= 1.31E-01
+ tran: time= 2.0000E-06 tot_iter=    1671 conv_iter=     635 cpu clock= 1.34E-01
+ sweep: tran tran0    end, cpu clock= 1.34E-01 peak memory=      61 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

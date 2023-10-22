@@ -1,0 +1,19 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "13:59:50 01/07/2023 "
+* "netlist" "NAND_TEST_EDITED.sp "
+* "runtitle" "digital electronic circuits - ca4 - part1"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 2 =-973.2882m       
++ a =  -1.0000        
++ b =  -1.0000        
++ out =   1.0000        
++ vdd =   1.0000        
++ vss =  -1.0000        
+***   END: Saved Operating Point ***                     
