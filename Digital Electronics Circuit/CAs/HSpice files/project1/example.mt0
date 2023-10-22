@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'first line of the netlist must be blank.'
+ maxpower         tphl             tplh             tpd             
+ t_rise           t_fall           temper           alter#          
+  7.209e-04        1.496e-11        1.531e-11        1.513e-11      
+  2.686e-11        2.035e-11         25.0000        1               

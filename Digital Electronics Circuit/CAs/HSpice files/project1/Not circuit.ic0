@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "15:18:48 11/04/2022 "
+* "netlist" "Not circuit.sp "
+* "runtitle" "notcircuit"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ out = 999.9625m       
++ vdd =   1.0000        
+***   END: Saved Operating Point ***                     

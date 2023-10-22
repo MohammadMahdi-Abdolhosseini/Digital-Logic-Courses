@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'notcircuit'
+ t_rise           t_fall           temper           alter#          
+  3.412e-10        2.236e-10         25.0000        1               

@@ -1,0 +1,29 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "10:53:39 11/20/2022 "
+* "netlist" "FAdder.sp "
+* "runtitle" "*------------------------------------------"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ b =   0.            
++ c =   0.            
++ co =   7.7675n       
++ na =   1.8000        
++ nb =   1.8000        
++ nc = 108.5148m       
++ nd = 108.5149m       
++ ne =   1.8000        
++ nf =   1.8000        
++ ng =   1.7272        
++ nh =  56.7891n       
++ o1 =   1.8000        
++ o2 =   1.8000        
++ sum =   7.7675n       
++ vdd =   1.8000        
+***   END: Saved Operating Point ***                     

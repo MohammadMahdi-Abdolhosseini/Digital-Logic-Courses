@@ -1,0 +1,14 @@
+NotCircuit
+.lib "45nm '45nm_PTM.txt' 45nm
+***Voltages***
+V1		vdd		 0 1
+Vin		A		 0
+***Components***
+*M(name)	ND	NG	NS	NB	Modelname	W		
+M1			out	A	Vdd	vdd	pmos		W='2.0*0.4*Lmin'	L='1.0*Lmin'		
+M2			out	A	0	0	nmos		W='2.0*Lmin'	L='1.0*Lmin' 
+***Analysis***
+.DC			Vin 0	1,8	0.01
+
+.end
+	

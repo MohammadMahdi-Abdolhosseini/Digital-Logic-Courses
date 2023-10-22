@@ -1,0 +1,25 @@
+ ****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+  Copyright (c) 1986 - 2022 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: inverter.sp                                                       
+  Command line options: C:\synopsys\Hspice_P-2019.06-SP1-1\WIN64\hspice.com -i inverter.sp -o C:\Users\IDEAL\Desktop\HSpice files\project2\inverter.lis
+  Start time: Sun Nov 20 10:53:26 2022
+  lic:  
+  lic: FLEXlm: SDK_12.3 
+  lic: USER:   IDEAL                HOSTNAME: DESKTOP-VQ2IIPN 
+  lic: HOSTID: "38002578d45c"       PID:      6716 
+  lic: Using FLEXlm license file: 
+  lic: 27000@DESKTOP-VQ2IIPN 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 30-dec-2030/2030.12 
+  lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@DESKTOP-VQ2IIPN 
+  lic:   
+  **error** (inverter.sp:3) unable to open file "mm90.L" .Either file doesn't exists or path is wrong. Please enter the correct file location. 
+
+               ***** job aborted
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        4.92(s)
